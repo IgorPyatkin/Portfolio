@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        <div class="intro">
+
+            <div class="circle"></div>
+                <div id="content-5" class="tabs__content--item container__text content tabs__content-item--active">
+                    <div class="intro__alltext">
+                        <h1 class="intro__title">Я Хочу Стать FullStack Разработчиком</h1>
+                        <div class="intro__text--container">
+                            <p class="intro__text">Но</p>
+                            <a href="#!" data-button="content-2" class="intro__text--newcolor tabs__btn-item">почему?</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-2" class="tabs__content--item me content">
+                    <p class="me__text1">
+                        <img src="images/photo.jpg" alt="">
+                        <span>Привет,</span>
+                        <br>
+                        <span>Я Пяткин Игорь Алексеевич</span>
+                        <br>
+                        <br>
+                        Я всегда хотел стать программистом, потому что я люблю решать технические задачки
+                    </p>
+                    <br>
+                    <!-- <p class="me__text2">Я всегда хотел стать программистом, потому что я люблю решать технические задачки</p>
+                    <br> -->
+                    <p class="me__text3">Сейчас я учусь на 2 курсе в МГУ им. Н.П.Огарева на направлении "Программная инженерия"</p>
+                    <br>
+                    <p class="me__text4">Сейчас мой английский на уровне B1</p>
+                </div>
+
+                <div id="content-1" class="tabs__content--item path content">
+                    <h1 class="path__title">Цели на курс:</h1>
+                    <br>
+                    <ul class="list">
+                        <li>Улучшение навыков разработки</li>
+                        <li>Изучение современных frontend технологий</li>
+                        <li>Разработка адаптивных дизайнов</li>
+                        <li>Применение современных фреймворков</li>
+                    </ul>
+                </div>
+
+                <div id="content-3" class="tabs__content--item exp content">
+                    <p class="exp__text1">
+                        <span>Опыт работы:</span>
+                        <span>пока нет</span>
+                    </p>
+                    <br>
+                    <p class="exp__text2">
+                        <h1 class="path__title exp__title">Опыт программирования:</h1>
+                        <ul class="list exp__list">
+                            <li>Лендинг сайта Burger King</li>
+                            <li>Лендинг сайта Oculus Quest</li>
+                            <li>Освоение Unity</li>
+                            <li>Прохождение курса "Разработка на C#/.NET"</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div id="content-6" class="tabs__content--item contacts content">
+                    <a class="contacts__item" href="skype:live:.cid.4b5608a82388695?chat">
+                        <img src="images/skype.svg" alt="" class="contacts__img">
+                        Skype
+                    </a>
+
+                    <a class="contacts__item" href="https://t.me/Igurik" target="_blank">
+                        <img src="images/telegram.svg" alt="" class="contacts__img">
+                        Telegram
+                    </a>
+
+                    <a class="contacts__item" href="https://github.com/IgorPyatkin" target="_blank">
+                        <img src="images/github.svg" alt="" class="contacts__img github">
+                        GitHub
+                    </a>
+
+                    <a class="contacts__item" href="tel:+79520783851">
+                        <img src="images/telephone.svg" alt="" class="contacts__img phone">
+                        +79520783851
+                    </a>
+
+                    
+                    <a class="contacts__item" href="mailto:pyatkinigor6@gmail.com">
+                        <img src="images/mail.svg" alt="" class="contacts__img mail">
+                        pyatkinigor6@gmail.com
+                    </a>
+                </div>
+
+                <div class="tabs">
+                    <div class="tabs__btn">
+                        <button class="tabs__btn-item btn1" data-button="content-1">Курс</button>
+                        <button class="tabs__btn-item btn2" data-button="content-2">Обо Мне</button>
+                        <button class="tabs__btn-item btn3" data-button="content-3">Мой Опыт</button>
+                        <button class="tabs__btn-item btn4" data-button="content-4">?</button>
+                        <button class="tabs__btn-item tabs__btn-item--active btn5" data-button="content-5">
+                            <img src="images/gamepad.svg" alt="">
+                        </button>
+                        <button class="tabs__btn-item btn6" data-button="content-6">Контакты</button>
+                    </div>
+                </div>
+
+            
+        </div>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
