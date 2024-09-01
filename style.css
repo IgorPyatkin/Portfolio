@@ -206,6 +206,15 @@ img{
     display: none;
 }
 
+.gif {
+    display: none;
+}
+
+.gif img {
+    border-radius: 20px;
+    height: 650px;
+}
+
 
 .exp__text1 {
     font-size: 50px;
@@ -290,5 +299,15 @@ img{
         transform: translateY(0);
     }
 }
+
+.content {
+    opacity: 0;
+    animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 
 
