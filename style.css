@@ -308,6 +308,36 @@ img{
 @keyframes ani {
     0% {opacity: 0;}
     100% {opacity: 1;}
-  }
+}
+
+@media (max-width: 1490px) {
+    .intro__title {
+        font-size: 55px;
+    }
+
+    .intro__text--container {
+        font-size:35px;
+    }
+
+    .content {
+        font-size: 25px;
+    }
+
+    .path__title {
+        font-size: 40px;
+    }
+
+    .exp__text1 {
+        font-size: 35px;
+    }
+
+    .me__text1 img {
+        height: 350px;
+    }
+
+    .contacts__img {
+        width: 40px;
+    }
+}
 
 
